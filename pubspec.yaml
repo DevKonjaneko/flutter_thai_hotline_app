@@ -1,0 +1,36 @@
+name: flutter_thai_hotline_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^9.0.0
+  font_awesome_flutter: ^11.0.0
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/images/aboutme/
+    - assets/images/bank/
+    - assets/images/emergency/
+    - assets/images/pubutil/
+    - assets/images/travel/
